@@ -30,6 +30,10 @@ switches:
   - name: zh_tw
     reset: 1
 
+editor:
+  bindings:
+    Return: confirm
+
 engine:
   processors:
     - ascii_composer

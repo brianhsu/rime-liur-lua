@@ -1,4 +1,4 @@
- # rime-liur-lua
+ # rime-liur-lua (無中英混輸版)
  ------------
 >基於RIME輸入法設計的無蝦米方案
 
@@ -10,8 +10,6 @@
 	* [MacOS or Linux](#macos-or-linux)
 	* [Windows](#windows)
 * [基本功能](#基本功能)
-	* [中英混輸](#中英混輸)
-	* [取消碼長限制](#取消碼長限制)
 	* [SHIFT鍵切換中英輸入](#shift鍵切換中英輸入)
 	* [即時簡繁轉換](#即時簡繁轉換)
 * [模式](#模式)
@@ -34,12 +32,12 @@
 安裝指令：
 ```
 $ git clone https://github.com/rime/plum.git && cd plum
-$ ./rime-install https://raw.githubusercontent.com/hftsai256/rime-liur-lua/master/liur-lua-packages.conf
+$ ./rime-install https://raw.githubusercontent.com/brianhsu/rime-liur-lua/master/liur-lua-packages.conf
 ```
 
 或是直接 pipe：
 ```
-$ curl -fsSL https://git.io/rime-install | bash -s -- https://raw.githubusercontent.com/hftsai256/rime-liur-lua/master/liur-lua-packages.conf
+$ curl -fsSL https://git.io/rime-install | bash -s -- https://raw.githubusercontent.com/brianhsu/rime-liur-lua/master/liur-lua-packages.conf
 ```
 
 若 Distribution 帶入的 `ibus-rime` 版本較舊而不支援 `__patch` 語法 (如 Ubuntu 18.04 LTS)，可參考源碼中提供的範本 `plum/package/hftsai256/rime-lua/default.custom.yaml` 會更簡單些。Ubuntu 20.04 LTS 會直接帶入 `ibus-rime v1.4.0-2` 版。
@@ -78,13 +76,6 @@ rime-install luna-pinyin terra-pinyin bopomofo
 ```
 
 ## 基本功能
-### 中英混輸
-透過空白鍵上中文字及中文符號，ENTER鍵上英文字及英文符號
-><img div="中英混輸.gif" src="https://raw.githubusercontent.com/ianzhuo/ImageCollection/master/%E4%B8%AD%E8%8B%B1%E6%B7%B7%E8%BC%B8.gif" width="600">
-
-### 取消碼長限制
-直接輸入 www.google.com.tw 按ENTER鍵，可直接上字無需切換輸入法
-><img div="取消碼長限制.gif" src="https://raw.githubusercontent.com/ianzhuo/ImageCollection/master/%E5%8F%96%E6%B6%88%E7%A2%BC%E9%95%B7%E9%99%90%E5%88%B6.gif" width="600">
 
 ### SHIFT鍵切換中英輸入
 SHIFT鍵可切換中英輸入，並且將組字區內容直接上字

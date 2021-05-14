@@ -16,6 +16,8 @@ install_files: >-
 
 patch_files:
   default.custom.yaml:
+    - patch:
+        "menu/page_size": 9
     - patch/+:
         schema_list: [schema: liur]
     - patch/key_binder/bindings/+:
