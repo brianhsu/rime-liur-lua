@@ -15,30 +15,6 @@ install_files: >-
   opencc/*.*
 
 patch_files:
-  zhuyin.yaml:
-    pinyin_to_zhuyin:
-      __append:
-        - xform/^m(\d)$/mu$1/  # 呣
-        - xform/^r5$/er5/  # 〜兒
-        - xform/iu/iou/
-        - xform/ui/uei/
-        - xform/ong/ung/
-        - xform/^yi?/i/
-        - xform/^wu?/u/
-        - xform/iu/v/
-        - xform/^([jqx])u/$1v/
-        - xform/([iuv])n/$1en/
-        - xform/^zhi?/Z/
-        - xform/^chi?/C/
-        - xform/^shi?/S/
-        - xform/^([zcsr])i/$1/
-        - xform/ai/A/
-        - xform/ei/I/
-        - xform/ao/O/
-        - xform/ou/U/
-        - xform/ang/K/
-        - xform/eng/G/
-
   default.custom.yaml:
     - patch:
         "menu/page_size": 9
