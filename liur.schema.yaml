@@ -162,7 +162,7 @@ phonetic:
   dictionary: terra_pinyin
   prism: bopomofo_tw
   preedit_format:	#menu反查之輸入法 顯示
-    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/- 6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
+    - "xlit|1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/-=6347'|ㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙㄧㄨㄩㄚㄛㄜㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦˉˊˇˋ˙ |"
   comment_format:	#menu 提示 字碼 顯示
     - "xlit|abcdefghijklmnopqrstuvwxyz[];',.|abcdefghijklmnopqrstuvwxyz[];',.|"
   tips: 【注音】
@@ -216,7 +216,7 @@ recognizer:
   patterns:
     email: ^[a-z][-_.0-9a-z]*@.*$
     url: ^(www[.]|https?:|ftp:|mailto:).*$
-    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/6347-]*'?$"
+    phonetic: "';[1qaz2wsxedcrfv5tgbyhnujm8ik,9ol.0p;/=6347-]*'?$"
 # 注音反查引導鍵
     pinyin: "`[a-z']*'?$"
 # 漢語拼音輸入引導鍵
